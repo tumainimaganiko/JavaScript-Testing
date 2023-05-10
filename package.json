@@ -1,8 +1,18 @@
 {
-  "devDependencies": {
-    "jest": "^29.5.0"
-  },
+  "name": "javascript-testing",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.1"
   }
 }
